@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:contentDescription="Logo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="ISMOT BRAWSER"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text="Ismot Browser is a fast, secure, and lightweight web browser designed for everyone.\n\nWhether you're casually surfing or handling daily tasks like developing a website,\n\n this app ensures a smoother browsing experience.\n\nIt's more efficient and compact compared to typical browser apps, making it ideal for devices with limited resources.\n\nVersion 1.0\n\nCreated by RTechon"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Developer: Robby Roda"
+        android:textColor="#000000"
+        android:textSize="11sp" />
+
+    <TextView
+        android:text="Contact Us"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/facebookIcon"
+            android:src="@drawable/ic_facebook"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="8dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:contentDescription="Facebook"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+
+        <ImageButton
+            android:id="@+id/xIcon"
+            android:src="@drawable/ic_x"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="8dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:contentDescription="X"
+            android:layout_marginStart="16dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+
+        <ImageButton
+            android:id="@+id/emailIcon"
+            android:src="@drawable/ic_email"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="8dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:contentDescription="Email"
+            android:layout_marginStart="16dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+
+        <ImageButton
+            android:id="@+id/githubIcon"
+            android:src="@drawable/ic_github"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="8dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:contentDescription="GitHub"
+            android:layout_marginStart="16dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+    </LinearLayout>
+</LinearLayout>

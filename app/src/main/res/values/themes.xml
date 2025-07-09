@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.Browser" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Light Theme Colors -->
+        <item name="colorPrimary">#E0E0E0</item> <!-- Light gray -->
+        <item name="colorPrimaryVariant">#BDBDBD</item> <!-- Slightly darker gray -->
+        <item name="colorOnPrimary">#000000</item> <!-- Black text/icons on light -->
+        <item name="colorSurface">#FAFAFA</item> <!-- Light background -->
+        <item name="colorOnSurface">#000000</item> <!-- Black text -->
+        <item name="android:windowBackground">#FFFFFF</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/navHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏠 Home"
+        android:textSize="16sp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="?attr/colorOnBackground" />
+
+    <Button
+        android:id="@+id/navAddBookmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📌 Add Bookmark"
+        android:textSize="16sp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="?attr/colorOnBackground" />
+
+    <Button
+        android:id="@+id/navBookmarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔖 View Bookmarks"
+        android:textSize="16sp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="?attr/colorOnBackground" />
+
+    <Button
+        android:id="@+id/navHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📜 View History"
+        android:textSize="16sp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="?attr/colorOnBackground" />
+
+    <Button
+        android:id="@+id/navTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🌙 Theme Mode"
+        android:textSize="16sp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="?attr/colorOnBackground" />
+
+    <Button
+        android:id="@+id/navDownloads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⬇️ Downloads"
+        android:textSize="16sp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="?attr/colorOnBackground" />
+
+</LinearLayout>

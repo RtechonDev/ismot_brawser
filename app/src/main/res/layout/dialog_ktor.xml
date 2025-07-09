@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="?android:windowBackground">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ktor Server Access"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/rootDirectoryPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Root Path: /path/to/ktor/root"
+        android:textSize="14sp"
+        android:paddingBottom="12dp"
+        android:textColor="#333333" />
+
+    <Button
+        android:id="@+id/startKtorBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Ktor Server"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/stopKtorBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Ktor Server"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/customUrlInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter custom URL (http://...)"
+        android:inputType="textUri"
+        android:layout_marginBottom="12dp"
+        android:padding="8dp"
+        android:background="@android:drawable/edit_text" />
+
+    <Button
+        android:id="@+id/customButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Custom URL"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/closeKtorDialogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close" />
+</LinearLayout>
